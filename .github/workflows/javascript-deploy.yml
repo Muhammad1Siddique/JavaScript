@@ -35,4 +35,4 @@ jobs:
         
       # Runs and depoly surge using the runners shell
       - name: deploy using surge
-        run: surge ./ js-site.surge.sh  --token $ {{ secrets.cnc_token }}
+        run: surge ./ js-site.surge.sh  --token $ {{ secrets.CNC_TOKEN }}
